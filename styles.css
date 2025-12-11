@@ -172,10 +172,10 @@ main {
   filter: drop-shadow(0 0 6px rgba(245, 200, 115, 0.6));
 }
 
-/* wersja na telefon – trochę mniejsze, żeby się mieściło */
+/* wersja na telefon  */
 @media (max-width: 600px) {
   .menu-section-title {
-    font-size: var(--fs-xl); /* wciąż duży, ale rozsądny na mobile */
+    font-size: var(--fs-xl); 
   }
 
   .menu-section-title::before {
@@ -250,6 +250,7 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 0.75rem;
+  align-items: flex-start;
   margin-bottom: 0.25rem;
   flex-wrap: wrap;
 }
@@ -321,7 +322,8 @@ main {
   }
 }
 /* ============================
-   SIDE STRIP (jeśli zostawiamy)
+   SIDE STRIP 
+
 ============================ */
 .side-strip {
   position: fixed;
@@ -414,7 +416,7 @@ header {
   }
 }
 
-/* logo po lewej  */
+
 .nav-logo {
   font-family: "Playfair Display", serif;
   font-size: var(--fs-sm);
@@ -958,7 +960,7 @@ header {
   }
 
   .main-nav.is-open .nav-grid {
-    max-height: 420px; /* wystarczy na wszystkie linki */
+    max-height: 420px;
     opacity: 1;
   }
 
@@ -971,9 +973,7 @@ header {
     display: block;
   }
 
-  /* możesz schować tekstowe logo na mobile jeśli chcesz
-  .nav-logo { display: none; }
-  */
+
 }
 
 /* SCROLL TOP */
