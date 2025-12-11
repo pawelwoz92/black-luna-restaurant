@@ -127,6 +127,7 @@ h4 {
 ============================ */
 main {
   padding-inline: 15vw;
+   
 }
 
 .menu-section-title {
@@ -1179,3 +1180,4 @@ header {
   transform: translateY(0);
   transition-delay: 0.8s;
 }
+
