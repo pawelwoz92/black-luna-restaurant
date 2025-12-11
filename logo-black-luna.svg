@@ -1,0 +1,14 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- czarne wypełnienie w środku pieczęci -->
+  <rect x="10" y="10" width="100" height="100" rx="6"
+        fill="#050509"
+        stroke="#e44a4a"
+        stroke-width="6" />
+
+  <!-- pionowy znak w środku -->
+  <rect x="56" y="28" width="8" height="52" fill="#f5c873" />
+
+  <!-- poziome pociągnięcia (kanji-style) -->
+  <rect x="40" y="44" width="40" height="5" fill="#f5c873" />
+  <rect x="40" y="64" width="40" height="5" fill="#f5c873" />
+</svg>

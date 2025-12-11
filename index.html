@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Black Luna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="logo-black-luna.svg" />
+  </head>
+  <body>
+    <div class="side-strip">
+      <div class="side-strip-inner">
+        <img src="images/woman_1.jpg" alt="" />
+        <img src="images/woman_2.jpg" alt="" />
+        <img src="images/ninja_1.jpg" alt="" />
+        <img src="images/woman_3.jpg" alt="" />
+        <img src="images/woman_4.jpg" alt="" />
+
+        <!-- duplikat do płynnej pętli -->
+        <img src="images/woman_1.jpg" alt="" />
+        <img src="images/woman_2.jpg" alt="" />
+        <img src="images/ninja_1.jpg" alt="" />
+        <img src="images/woman_3.jpg" alt="" />
+        <img src="images/woman_4.jpg" alt="" />
+      </div>
+    </div>
+
+    <header>
+      <nav class="main-nav">
+        <div class="nav-inner">
+          <a href="#home" class="nav-logo">
+            <img
+              src="logo-black-luna.svg"
+              alt="Black Luna logo"
+              class="nav-logo-img"
+            />
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+
+          <ul class="nav-grid">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#starters">Starters</a></li>
+            <li><a href="#sushi">Sushi</a></li>
+            <li><a href="#rolls">Rolls</a></li>
+            <li><a href="#ramen">Ramen</a></li>
+            <li><a href="#donburi">Donburi</a></li>
+            <li><a href="#sides">Sides</a></li>
+            <li><a href="#drinks">Drinks</a></li>
+            <li><a href="#tea">Tea</a></li>
+            <li><a href="#desserts">Desserts</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-inner">
+          <p class="hero-kicker">Modern Japanese Dining</p>
+          <div class="hero-logo">
+            <img src="logo-black-luna.svg" alt="Black Luna logo" />
+          </div>
+          <h1 class="hero-title">Black Luna</h1>
+          <!-- jeśli chcesz zostawić tekst -->
+
+          <p class="hero-subtitle">
+            Signature sushi, ramen & cocktails in an intimate, neon-lit
+            atmosphere.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#menu" class="btn btn-primary">View Menu</a>
+            <a href="#reservation" class="btn btn-ghost">Book a Table</a>
+          </div>
+
+          <p class="hero-meta">Open today 17:00 – 23:00 · Walk-ins welcome</p>
+        </div>
+      </section>
+      <section id="menu">
+        <article id="starters" class="menu-category starters">
+          <div class="category-bg"></div>
+          <h3 class="menu-section-title">Starters</h3>
+
+          <div class="menu-grid">
+            <!-- Miso Soup -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/miso.jpg" alt="Miso Soup" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Miso Soup</h4>
+                  <span class="menu-price">$4.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Light miso broth with tofu, wakame and spring onions.
+                </p>
+              </div>
+            </article>
+
+            <!-- Edamame -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/edamame.jpg" alt="Edamame" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Edamame</h4>
+                  <span class="menu-price">$4.00</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Steamed soy beans with sea salt.
+                </p>
+              </div>
+            </article>
+
+            <!-- Gyoza -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/gyoza.jpg" alt="Gyoza Dumplings" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Gyoza (Chicken / Veg)</h4>
+                  <span class="menu-price">$6.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Pan-fried dumplings with soy dipping sauce.
+                </p>
+              </div>
+            </article>
+
+            <!-- Karaage Chicken -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/karaage_chicken.jpg" alt="Karaage Chicken" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Karaage Chicken</h4>
+                  <span class="menu-price">$7.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Crispy marinated chicken bites with lemon.
+                </p>
+              </div>
+            </article>
+
+            <!-- Agedashi Tofu -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/agedashi_tofu.jpg" alt="Agedashi Tofu" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Agedashi Tofu</h4>
+                  <span class="menu-price">$6.00</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Crispy tofu in savory dashi broth.
+                </p>
+              </div>
+            </article>
+          </div>
+        </article>
+        <article id="sushi" class="menu-category sushi">
+          <div class="category-bg"></div>
+          <h3 class="menu-section-title">Sushi & Sashimi</h3>
+
+          <div class="menu-grid">
+            <!-- Salmon Nigiri -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/salmon_nigiri.jpg" alt="Salmon Nigiri" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Salmon Nigiri (2 pcs)</h4>
+                  <span class="menu-price">$5.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Fresh Atlantic salmon on vinegared rice.
+                </p>
+              </div>
+            </article>
+
+            <!-- Tuna Nigiri -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/tuna_nigiri.jpg" alt="Tuna Nigiri" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Tuna Nigiri</h4>
+                  <span class="menu-price">$6.00</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Bluefin tuna slice on sushi rice.
+                </p>
+              </div>
+            </article>
+
+            <!-- Ebi Nigiri -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/ebi_nigiri.jpg" alt="Ebi Nigiri" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Ebi Nigiri</h4>
+                  <span class="menu-price">$5.00</span>
+                </div>
+                <p class="menu-desc text-muted">Cooked prawn nigiri.</p>
+              </div>
+            </article>
+
+            <!-- Salmon Sashimi -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/salmon_sashimi.jpg" alt="Salmon Sashimi" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Salmon Sashimi (6 pcs)</h4>
+                  <span class="menu-price">$9.50</span>
+                </div>
+                <p class="menu-desc text-muted">Premium sliced salmon.</p>
+              </div>
+            </article>
+
+            <!-- Mixed Sashimi Platter -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img
+                  src="images/mixed_sashimi_platter.jpg"
+                  alt="Mixed Sashimi Platter"
+                />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Mixed Sashimi Platter</h4>
+                  <span class="menu-price">$16.00</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Chef’s selection of salmon, tuna & white fish.
+                </p>
+              </div>
+            </article>
+          </div>
+        </article>
+        <article id="rolls" class="menu-category rolls">
+          <div class="category-bg"></div>
+          <h3 class="menu-section-title">Rolls (Uramaki / Futomaki)</h3>
+
+          <div class="menu-grid">
+            <!-- California Roll -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/california_roll.jpg" alt="California Roll" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">California Roll</h4>
+                  <span class="menu-price">$8.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Crab stick, avocado, cucumber, sesame.
+                </p>
+              </div>
+            </article>
+
+            <!-- Spicy Tuna Roll -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/spicy_tuna_roll.jpg" alt="Spicy Tuna Roll" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Spicy Tuna Roll</h4>
+                  <span class="menu-price">$9.50</span>
+                </div>
+                <p class="menu-desc text-muted">Tuna, spicy mayo, cucumber.</p>
+              </div>
+            </article>
+
+            <!-- Dragon Roll -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/dragon_roll.jpg" alt="Dragon Roll" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Dragon Roll</h4>
+                  <span class="menu-price">$12.00</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Ebi tempura, avocado, unagi sauce.
+                </p>
+              </div>
+            </article>
+
+            <!-- Philadelphia Roll -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img
+                  src="images/philadelphia_roll.jpg"
+                  alt="Philadelphia Roll"
+                />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Philadelphia Roll</h4>
+                  <span class="menu-price">$9.00</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Salmon, cream cheese, cucumber.
+                </p>
+              </div>
+            </article>
+
+            <!-- Rainbow Roll -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/rainbow_roll.jpg" alt="Rainbow Roll" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Rainbow Roll</h4>
+                  <span class="menu-price">$13.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  California roll topped with assorted fish.
+                </p>
+              </div>
+            </article>
+          </div>
+        </article>
+        <article id="ramen" class="menu-category ramen">
+          <div class="category-bg"></div>
+          <h3 class="menu-section-title">Ramen &amp; Soups</h3>
+
+          <div class="menu-grid">
+            <!-- Tonkotsu Ramen -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/tonkotsu_ramen.jpg" alt="Tonkotsu Ramen" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Tonkotsu Ramen</h4>
+                  <span class="menu-price">$12.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Rich pork broth, chashu, egg, mushrooms, noodles.
+                </p>
+              </div>
+            </article>
+
+            <!-- Shoyu Ramen -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/shoyu_ramen.jpg" alt="Shoyu Ramen" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Shoyu Ramen</h4>
+                  <span class="menu-price">$11.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Soy-based broth with chicken, egg, bamboo shoots.
+                </p>
+              </div>
+            </article>
+
+            <!-- Miso Ramen -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/miso_ramen.jpg" alt="Miso Ramen" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Miso Ramen</h4>
+                  <span class="menu-price">$11.00</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Miso broth with vegetables and tofu.
+                </p>
+              </div>
+            </article>
+
+            <!-- Seafood Ramen -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/seafood_ramen.jpg" alt="Seafood Ramen" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Seafood Ramen</h4>
+                  <span class="menu-price">$13.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Fish broth with prawns, squid &amp; mussels.
+                </p>
+              </div>
+            </article>
+          </div>
+        </article>
+        <article id="donburi" class="menu-category donburi">
+          <div class="category-bg"></div>
+          <h3 class="menu-section-title">Donburi (Rice Bowls)</h3>
+
+          <div class="menu-grid">
+            <!-- Gyudon -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/gyudon.jpg" alt="Gyudon" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Gyudon</h4>
+                  <span class="menu-price">$11.00</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Beef, onions, sweet soy sauce over rice.
+                </p>
+              </div>
+            </article>
+
+            <!-- Katsudon -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/katsudon.jpg" alt="Katsudon" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Katsudon</h4>
+                  <span class="menu-price">$11.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Pork cutlet, egg, onions over rice.
+                </p>
+              </div>
+            </article>
+
+            <!-- Teriyaki Chicken Don -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img
+                  src="images/teriyaki_chicken_don.jpg"
+                  alt="Teriyaki Chicken Don"
+                />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Teriyaki Chicken Don</h4>
+                  <span class="menu-price">$10.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Grilled chicken in teriyaki glaze on rice.
+                </p>
+              </div>
+            </article>
+
+            <!-- Salmon Don -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/salmon_don.jpg" alt="Salmon Don" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Salmon Don</h4>
+                  <span class="menu-price">$12.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Salmon sashimi over sushi rice.
+                </p>
+              </div>
+            </article>
+          </div>
+        </article>
+        <article id="sides" class="menu-category sides">
+          <div class="category-bg"></div>
+          <h3 class="menu-section-title">Sides</h3>
+
+          <div class="menu-grid">
+            <!-- Rice -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/rice.jpg" alt="Steamed Rice" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Steamed Rice</h4>
+                  <span class="menu-price">$2.00</span>
+                </div>
+                <p class="menu-desc text-muted">Steamed Japanese rice.</p>
+              </div>
+            </article>
+
+            <!-- Wakame Salad -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/wakame_salad.jpg" alt="Wakame Salad" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Wakame Salad</h4>
+                  <span class="menu-price">$4.50</span>
+                </div>
+                <p class="menu-desc text-muted">Seaweed salad with sesame.</p>
+              </div>
+            </article>
+
+            <!-- Kimchi -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/kimchi.jpg" alt="Kimchi" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Kimchi</h4>
+                  <span class="menu-price">$3.00</span>
+                </div>
+                <p class="menu-desc text-muted">Fermented spicy cabbage.</p>
+              </div>
+            </article>
+
+            <!-- Tempura Vegetables -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img
+                  src="images/tempura_vegetables.jpg"
+                  alt="Tempura Vegetables"
+                />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Tempura Vegetables</h4>
+                  <span class="menu-price">$6.00</span>
+                </div>
+                <p class="menu-desc text-muted">Lightly fried vegetables.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+        <article id="drinks" class="menu-category drinks">
+          <div class="category-bg"></div>
+          <h3 class="menu-section-title">Drinks</h3>
+
+          <div class="menu-grid">
+            <!-- Ramune Soda -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/ramune_soda.jpg" alt="Ramune Soda" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Ramune Soda</h4>
+                  <span class="menu-price">$3.50</span>
+                </div>
+                <p class="menu-desc text-muted">Japanese marble soda.</p>
+              </div>
+            </article>
+
+            <!-- Matcha Lemonade -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/matcha_lemonade.jpg" alt="Matcha Lemonade" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Matcha Lemonade</h4>
+                  <span class="menu-price">$4.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Refreshing lemonade with matcha.
+                </p>
+              </div>
+            </article>
+
+            <!-- Coca-Cola / Zero -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/coca_cola.jpg" alt="Coca-Cola / Zero" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Coca-Cola / Zero</h4>
+                  <span class="menu-price">$2.50</span>
+                </div>
+                <p class="menu-desc text-muted">Standard soft drinks.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+        <article id="tea" class="menu-category tea">
+          <div class="category-bg"></div>
+          <h3 class="menu-section-title">Japanese Tea (Hot)</h3>
+
+          <div class="menu-grid">
+            <!-- Matcha Tea -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/matcha_tea.jpg" alt="Matcha Tea" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Matcha Tea</h4>
+                  <span class="menu-price">$3.50</span>
+                </div>
+                <p class="menu-desc text-muted">Traditional whisked matcha.</p>
+              </div>
+            </article>
+
+            <!-- Sencha Green Tea -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/sencha_green_tea.jpg" alt="Sencha Green Tea" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Sencha Green Tea</h4>
+                  <span class="menu-price">$3.00</span>
+                </div>
+                <p class="menu-desc text-muted">Light Japanese green tea.</p>
+              </div>
+            </article>
+
+            <!-- Jasmine Tea -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/jasmine_tea.jpg" alt="Jasmine Tea" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Jasmine Tea</h4>
+                  <span class="menu-price">$3.00</span>
+                </div>
+                <p class="menu-desc text-muted">Floral, aromatic.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+        <article id="desserts" class="menu-category desserts">
+          <div class="category-bg"></div>
+          <h3 class="menu-section-title">Desserts</h3>
+
+          <div class="menu-grid">
+            <!-- Mochi Ice Cream -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/mochi_ice_cream.jpg" alt="Mochi Ice Cream" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Mochi Ice Cream (3 pcs)</h4>
+                  <span class="menu-price">$5.50</span>
+                </div>
+                <p class="menu-desc text-muted">Strawberry, matcha, vanilla.</p>
+              </div>
+            </article>
+
+            <!-- Dorayaki -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img src="images/dorayaki.jpg" alt="Dorayaki" />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Dorayaki</h4>
+                  <span class="menu-price">$4.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Japanese pancake with red bean paste.
+                </p>
+              </div>
+            </article>
+
+            <!-- Matcha Cheesecake -->
+            <article class="menu-item">
+              <figure class="menu-figure">
+                <img
+                  src="images/matcha_cheesecake.jpg"
+                  alt="Matcha Cheesecake"
+                />
+              </figure>
+              <div class="menu-info">
+                <div class="menu-header">
+                  <h4 class="menu-title">Matcha Cheesecake</h4>
+                  <span class="menu-price">$5.50</span>
+                </div>
+                <p class="menu-desc text-muted">
+                  Creamy, green-tea infused cheesecake.
+                </p>
+              </div>
+            </article>
+          </div>
+        </article>
+      </section>
+      <section id="location" class="location">
+        <div class="location-inner">
+          <div class="location-text">
+            <h3 class="location-title">Find Us</h3>
+            <p class="location-tagline">
+              Black Luna · 12 Sakura Street, Tokyo District
+            </p>
+            <p class="location-desc">
+              We are located just off the main square – a short walk from the
+              central station. Street parking and bike stands available nearby.
+            </p>
+
+            <ul class="location-details">
+              <li><strong>Hours:</strong> Mon–Sun 17:00 – 23:00</li>
+              <li><strong>Phone:</strong> +44 0000 000 000</li>
+              <li><strong>Email:</strong> hello@blackluna.jp</li>
+            </ul>
+          </div>
+
+          <div class="location-map">
+            <!-- losowy embed z Google Maps -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41495.29775998733!2d139.7139555!3d35.6812403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf6b83f1c4b%3A0x2c0c2e2acd972d0!2sTokyo%20Station!5e0!3m2!1sen!2sjp!4v1700000000000!5m2!1sen!2sjp"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="reservation" class="reservation">
+        <div class="reservation-inner">
+          <h2 class="menu-section-title">Reservation</h2>
+
+          <div class="reservation-grid">
+            <div class="reservation-copy">
+              <p class="reservation-lead">
+                Book your table at Black Luna and let us prepare an evening of
+                ramen, sushi and sake just for you.
+              </p>
+              <ul class="reservation-details">
+                <li>📍 123 Sakura Street, Grimsby</li>
+                <li>⏰ Tue–Sun · 17:00 – 23:00</li>
+                <li>📞 Call us: 01234 567 890</li>
+              </ul>
+            </div>
+
+            <form class="reservation-form" action="#" method="post">
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" required />
+                </div>
+
+                <div class="form-field">
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" type="tel" required />
+                </div>
+
+                <div class="form-field">
+                  <label for="email">Email (optional)</label>
+                  <input id="email" name="email" type="email" />
+                </div>
+
+                <div class="form-field">
+                  <label for="date">Date</label>
+                  <input id="date" name="date" type="date" required />
+                </div>
+
+                <div class="form-field">
+                  <label for="time">Time</label>
+                  <input id="time" name="time" type="time" required />
+                </div>
+
+                <div class="form-field">
+                  <label for="guests">Guests</label>
+                  <select id="guests" name="guests" required>
+                    <option value="">Select…</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6+</option>
+                  </select>
+                </div>
+
+                <div class="form-field form-field--full">
+                  <label for="notes">Special requests</label>
+                  <textarea id="notes" name="notes" rows="3"></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Request Reservation
+              </button>
+
+              <p class="reservation-note text-muted">
+                We will confirm your reservation by phone or email as soon as
+                possible.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer reveal reveal-on-scroll">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <h4 class="footer-logo">Black Luna</h4>
+          <p>Modern Japanese restaurant &amp; cocktail bar.</p>
+        </div>
+
+        <div class="footer-col footer-follow">
+          <h5 class="footer-heading">FOLLOW US</h5>
+          <div class="footer-social">
+            <a href="#" aria-label="Visit our Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" aria-label="Visit our Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" aria-label="Visit our TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col footer-copy">
+          <p>© 2025 Black Luna. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Back to top">↑</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
