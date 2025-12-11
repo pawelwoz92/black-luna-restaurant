@@ -270,6 +270,8 @@ main {
   color: var(--accent-main);
 
   flex: 0 0 auto;
+   align-self: flex-start;    /* twardo przypinamy cenę do góry */
+  margin-top: 0.1rem;
 }
 
 .menu-desc {
